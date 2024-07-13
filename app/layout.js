@@ -42,6 +42,7 @@ export default function RootLayout({ children }) {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li><Link href={'/about'}>About</Link></li>
+              <li><Link href={'/blogs'}>blogs</Link></li>
             </ul>
           </div>
           <div className="navbar-end">
