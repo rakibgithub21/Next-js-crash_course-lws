@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const page = () => {
@@ -51,7 +52,7 @@ const page = () => {
                     <div className="card-body">
                         <h2 className="card-title">{blog.title}</h2>
                         <div className="card-actions justify-end">
-                            <button className="btn">Details</button>
+                            <Link href={`/blogs/${blog.id}`} className="btn">Details</Link>
                         </div>
                     </div>
                 </div>)}
